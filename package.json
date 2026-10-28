@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha",
     "start": "nodemon app.js"
   },
   "author": "",
@@ -22,7 +22,10 @@
     "uuid": "^14.0.3"
   },
   "devDependencies": {
+    "chai": "^6.3.0",
+    "mocha": "^12.0.3",
     "nodemon": "^3.1.14",
-    "prettier": "^3.9.10"
+    "prettier": "^3.9.10",
+    "sinon": "^22.1.0"
   }
 }
